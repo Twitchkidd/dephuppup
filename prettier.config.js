@@ -4,9 +4,9 @@ module.exports = {
   trailingComma: 'es5',
   bracketSpacing: true,
   tabWidth: 2,
-  semi: false,
+  semi: true,
   singleQuote: true,
-  arrowParens: 'always',
+  arrowParens: 'avoid',
   overrides: [
     {
       files: 'Routes.*',
