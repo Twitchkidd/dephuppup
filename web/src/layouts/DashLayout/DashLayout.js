@@ -1,5 +1,5 @@
 const DashLayout = ({ children }) => {
-  return <>{children}</>;
+  return <div style={{ color: 'blue' }}>{children}</div>;
 };
 
 export default DashLayout;

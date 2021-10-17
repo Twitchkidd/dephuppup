@@ -1,5 +1,6 @@
 import { Link, routes } from '@redwoodjs/router';
 import { MetaTags } from '@redwoodjs/web';
+import UsersCell from 'src/components/UsersCell';
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
 
       <h1>HupPup!</h1>
       <Link to={routes.dash()}>Dash</Link>
+      <UsersCell />
       <a href="auth0.com">Log In</a>
       <a href="auth0.com">Sign Up</a>
     </>
